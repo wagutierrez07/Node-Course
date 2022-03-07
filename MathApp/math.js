@@ -1,3 +1,5 @@
+const Math = {};
+
 function add(x1, x2) {
   return x1 + x2;
 }
@@ -19,12 +21,17 @@ function divide(x1, x2) {
     }
 }
 
-function module(x1, x2) {
-  return x1 % x2;
+
+Math.add = add;
+Math.substract = substract;
+Math.multiply = multiply;
+Math.divide = divide;
+
+
+
+function prueba(name) {
+  console.log('holis', name);
 }
 
-exports.add = add;
-exports.substract = substract;
-exports.multiply = multiply;
-exports.divide = divide;
-exports.module = module;
+
+module.exports = Math;
