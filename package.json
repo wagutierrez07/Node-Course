@@ -1,12 +1,12 @@
 {
   "dependencies": {
-    "colors": "^1.4.0"
+    "colors": "^1.4.0",
+    "express": "^4.17.3"
   },
   "name": "nodejs",
   "version": "1.0.0",
   "description": "Prueba de Node",
   "main": "helloworld.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node helloworld.js"
