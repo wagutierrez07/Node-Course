@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "colors": "^1.4.0"
+  },
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "Prueba de Node",
+  "main": "helloworld.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node helloworld.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wagutierrez07/Node-Course.git"
+  },
+  "keywords": [
+    "nodejs",
+    "prueba",
+    "spanish"
+  ],
+  "author": "WaGutierrez07",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wagutierrez07/Node-Course/issues"
+  },
+  "homepage": "https://github.com/wagutierrez07/Node-Course#readme"
+}
